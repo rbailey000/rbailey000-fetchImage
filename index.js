@@ -13,7 +13,7 @@
 
 var myImage = document.querySelector('img');
 
-var myRequest = new Request('./index.gif');
+var myRequest = new Request('index.gif');
 
 fetch(myRequest)
 .then(function(response) {
